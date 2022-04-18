@@ -1,82 +1,88 @@
 /* Universal Styles */
 html {
-    font-size: 16px;
-    font-family: Helvetica, sans-serif;
-  }
-  
-  body{
-    text-align: center;
-  }
-  
-  h1{
-    color: white;
-  }
-  
-  a{
-    color: hsl(0, 0%, 50%);
-    text-decoration: none;
-  }
-  
-  p{
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: justify;
-  }
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
 
-  table{
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+body{
+  text-align: center;
+}
 
-  table, th, td{
-    border: 1px solid;
-    border-collapse: collapse;
-  }
+h1{
+  color: white;
+}
 
-  th{
-    background-color: hsl(219, 79%, 75%);
-    color: white;
-  }
+a{
+  color: hsl(0, 0%, 50%);
+  text-decoration: none;
+}
 
-  tr:hover {
-    background-color: hsl(219, 79%, 90%);
-  }
+p{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
 
-  td{
-    text-align: center;
-  }
+table{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  th, td{
-    padding: 15px;
-  }
-  
-  /* Class Styles */
-  
-  .header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px 0;
-    background-color: #fff;
-    font-size: 14px;
-    font-weight: 900;
-  }
-  
-  .header li{
-    display: inline-block;
-    padding: 10px;
-  }
-  
-  .banner {
-    margin-top: 74px;
-    padding: 40px 0 100px 0;
-    background-color: hsl(219, 79%, 60%);
-  }
-  
-  .banner p{
-    color: hsl(0, 0%, 100%);
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-  }
+table, th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+  background-clip: padding-box;
+}
+
+th{
+  background-color: hsl(219, 79%, 65%);
+  color: white;
+}
+
+tr:hover {
+  background-color: hsl(219, 79%, 90%);
+}
+
+td{
+  text-align: center;
+}
+
+th, td{
+  padding: 15px;
+}
+
+/* Class Styles */
+
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.header li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.banner {
+  margin-top: 74px;
+  padding: 40px 0 100px 0;
+  background-color: hsl(219, 79%, 60%);
+}
+
+.banner p{
+  color: hsl(0, 0%, 100%);
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+td.subth{
+  background-color: hsl(219, 79%, 75%);
+  color: white;
+}
