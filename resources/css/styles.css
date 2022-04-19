@@ -13,8 +13,8 @@ h1{
 }
 
 a{
-  color: hsl(0, 0%, 50%);
   text-decoration: none;
+  color: black;
 }
 
 p{
@@ -62,7 +62,7 @@ table, th, td{
   top: 0;
   width: 100%;
   padding: 20px 0;
-  background-color: #fff;
+  background-color: hsl(219, 79%, 90%);
   font-size: 14px;
   font-weight: 900;
 }
@@ -90,14 +90,14 @@ td.subth{
   border: 1px solid;
 }
 
-.links{
+.documentation{
   width: 100%;
   padding: 20px 0;
   font-size: 14px;
   font-weight: 900;
 }
 
-.links li{
+.documentation li{
   display: inline-block;
   padding: 10px;
 }
